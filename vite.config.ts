@@ -9,16 +9,16 @@ import sitemap from "vite-plugin-sitemap";
 export default defineConfig({
 	plugins: [
 		react(),
-		sitemap({ hostname: "https://" }),
+		sitemap({ hostname: "https://testing.com" }),
 		compression({ algorithm: "gzip" }),
 		legacy({ targets: ["defaults", "not IE 11"] }),
 		VitePWA({
 			registerType: "autoUpdate",
 			includeAssets: ["favicon.ico", "robots.txt"],
 			manifest: {
-				name: "Codersbud",
-				short_name: "Codersbud",
-				description: "Social network for programmers",
+				name: "Template",
+				short_name: "Template",
+				description: "Template",
 				theme_color: "#ffffff",
 			},
 			workbox: {

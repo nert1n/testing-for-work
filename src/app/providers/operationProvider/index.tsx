@@ -77,6 +77,7 @@ export const OperationProvider = ({ children }: IProviders) => {
 	);
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useOperationContext = () => {
 	const context = useContext(OperationContext);
 	if (!context) {
