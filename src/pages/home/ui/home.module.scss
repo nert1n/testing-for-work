@@ -1,0 +1,13 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+	&__button {
+		&:first-child {
+			margin-bottom: 8px;
+		}
+	}
+}
